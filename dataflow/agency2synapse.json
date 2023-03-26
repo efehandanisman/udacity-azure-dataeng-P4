@@ -18,7 +18,7 @@
 						"referenceName": "NYC_Payroll_AGENCY_MD",
 						"type": "DatasetReference"
 					},
-					"name": "agency2synapse"
+					"name": "agencytosynapse"
 				}
 			],
 			"transformations": [],
@@ -45,7 +45,7 @@
 				"     allowCopyCommand: true,",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
-				"     errorHandlingOption: 'stopOnFirstError') ~> agency2synapse"
+				"     errorHandlingOption: 'stopOnFirstError') ~> agencytosynapse"
 			]
 		}
 	}
